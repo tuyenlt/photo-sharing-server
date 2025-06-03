@@ -3,7 +3,7 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "yarn install"
+      "command": "npm install"
     }
   ],
 
@@ -11,15 +11,15 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "yarn start",
+      "command": "npm start",
       "runAtStart": true,
       "preview": {
-        "port": 8081
+        "port": 3000
       }
     },
     "install": {
       "name": "install dependencies",
-      "command": "yarn install"
+      "command": "npm install"
     }
   }
 }
